@@ -1,0 +1,14 @@
+# Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Dossiers d'environnement virtuel
+venv/
+env/
+
+# Fichiers IDE
+.vscode/
+.idea/
