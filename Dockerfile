@@ -30,4 +30,4 @@ RUN pip install --no-cache-dir "fastapi[all]"
 # Étape 6: Définir la commande pour lancer l'API au démarrage du conteneur
 # Uvicorn est un serveur ASGI qui exécute notre application FastAPI
 # --host 0.0.0.0 permet d'écouter sur toutes les interfaces réseau
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "5000"]
