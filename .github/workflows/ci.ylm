@@ -40,7 +40,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Build and push Docker image # Étape 6: Construit et pousse l'image Docker
+      - name: Build and push Docker image # Étape 6: Construit et pousse l'image Docker Hub
         uses: docker/build-push-action@v5
         with:
           context: . # Le contexte de construction est la racine du dépôt
